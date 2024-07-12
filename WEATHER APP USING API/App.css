@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Luxurious+Roman&display=swap');
+
+* {
+  font-family: "Luxurious Roman", serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background:url("assets/bg.jpg") no-repeat ;
+  background-size: cover;
+}
+
+.container {
+  margin-top: 1.8rem;
+  margin-bottom: 1rem;
+  width: 350px;
+  padding: 20px;
+  background:url("assets/img.jpg") no-repeat center center fixed;
+  background-size: cover;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.input-container {
+  width: 98%;
+  display: flex;
+  align-items: center;
+  border: 2px solid #70e6f3;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.cityInput {
+  flex: 1;
+  height: 30px;
+  border: none;
+  font-size: 16px;
+  outline: none;
+}
+
+.search {
+  width: 2rem;
+}
+
+.Search-Icon {
+  padding: 10px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.search-icon img {
+  object-fit: contain;
+}
+
+.image {
+  text-align: center;
+  height: 150px;
+  margin-bottom: 10px;
+  margin-top: 2rem;
+}
+
+.image img {
+  width: 140px;
+  height: 140px;
+}
+
+.temp,
+.location,
+.country {
+  margin-top: 5px;
+  font-size: 35px;
+  color: #ffff;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.temp {
+  font-weight: 500;
+}
+
+.location {
+  color: #ffbc00;
+  font-weight: 400;
+  font-size: 40px;
+}
+
+.country {
+  font-size: 18px;
+  color: #ffff;
+  font-weight: 500;
+}
+
+.cord {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.cord div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.cord div span {
+  font-size: 14px;
+}
+
+.humidity-percent,
+.wind-percent,
+.cord div span:nth-child(2) {
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+  padding-top: 5px;
+}
+
+.data-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.element {
+  text-align: center;
+}
+
+.icon {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 5px;
+}
+
+.lat {
+  color: #fff;
+}
+
+.log{
+  color: whitesmoke;
+}
+
+.text {
+  font-size: 12px;
+  color: #fff;
+}
+
+.copyright {
+  text-align: center;
+  font-size: 12px;
+  color: #fff;
+}
+
+.city-not-found,
+.loading-message,
+.error-message {
+  margin-top: 10px;
+  color: #fff;
+  font-size: 25px;
+  font-weight: 400;
+  text-align: center;
+}
