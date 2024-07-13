@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+  font-family: "Open Sans", sans-serif;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("assets/bg.png");
+  background-size: cover;
+}
+
+.digital-clock{
+  margin-bottom: 10rem;
+  width: 400px;
+color:crimson;
+  padding: 20px;
+  border-radius: 5%;
+  text-align: center;
+  box-shadow:9 0 10px rgba(0, 0, 0, 0.1);
+  background-image: url("assets/bg-cont.png");
+}
+
+h1{
+  color:rgb(0, 0, 0);
+  font-weight: 700;
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+
+.time{
+  margin-bottom: 15px;
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.date{
+  color:wheat;
+  font-size: 20px;
+  font-weight: 900;
+  background-color: rgba(0, 0, 0, 0.753);
+  width: 10rem;
+  margin: auto;
+}
